@@ -588,6 +588,10 @@ const Game: React.FC = () => {
           {showDisclaimer && <OrientationDisclaimer onDisclaimerEnd={() => setShowDisclaimer(false)} />}
         </>
       )}
+      {/* Attribution text */}
+      <div className="fixed bottom-2 right-2 text-xs text-white opacity-70 z-10 pointer-events-none">
+        Hecho por: Erika Umfier
+      </div>
     </div>
   )
 }

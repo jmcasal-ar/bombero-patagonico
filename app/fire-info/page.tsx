@@ -127,6 +127,25 @@ export default function FireInfoPage() {
             </Button>
           </motion.div>
         </div>
+
+        <motion.div
+          className="text-center mt-8 text-sm text-gray-600 max-w-2xl mx-auto"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 1.2 }}
+        >
+          <p>
+            Este es un juego creado por Erika Umfier, en el marco de la Licenciatura de Ciencia Política de la
+            Universidad de Ciencias Sociales - UBA, dentro del seminario Gestión del Desarrollo Tecnológico, con
+            intervención del CECOT.
+          </p>
+          <p className="mt-2">
+            Contacto:{" "}
+            <a href="mailto:erikaumfier@gmail.com" className="text-blue-600 hover:underline">
+              erikaumfier@gmail.com
+            </a>
+          </p>
+        </motion.div>
       </main>
     </div>
   )
